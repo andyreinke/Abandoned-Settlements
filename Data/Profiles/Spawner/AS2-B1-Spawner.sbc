@@ -207,5 +207,24 @@
                 [IgnoreSafetyChecks:false]
             </Description>
         </EntityComponent>
+                
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>AS2-B1-Spawn-Cargo-EDSR</SubtypeId>
+            </Id>
+            <Description>
+                [RivalAI Spawn]
+                [UseSpawn:true]
+                [StartsReady:true]
+                [MaxSpawns:-1]
+                [SpawnGroups:AS2-B1-LootCrate-EDSR]
+
+                [UseRelativeSpawnPosition:false]
+                [MinDistance:30]
+                [MaxDistance:40]
+                [IgnoreSafetyChecks:false]
+            </Description>
+        </EntityComponent>
     </EntityComponents>
 </Definitions>	

@@ -74,5 +74,18 @@
                 [Spawner:AS2-B0-Spawn-Cargo-DNSK]
             </Description>
         </EntityComponent>
+    
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>AS2-B0-Action-EDSR</SubtypeId>
+            </Id>
+            <Description>
+                [RivalAI Action]
+                [SpawnEncounter:true]
+                [Spawner:AS2-B0-Spawn-Cargo-EDSR]
+            </Description>
+        </EntityComponent>
+    
     </EntityComponents>
 </Definitions>	        

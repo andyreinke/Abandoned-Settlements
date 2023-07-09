@@ -11,6 +11,7 @@
             [BehaviorName:Passive]
             [Triggers:AS2-B3-Trigger-Mine]
             [Triggers:AS2-B3-Trigger-DNSK]
+            [Triggers:AS2-B3-Trigger-EDSR]
             [Triggers:AS2-B2-Trigger-AIEnabled]
         </Description>
     </EntityComponent>
@@ -25,6 +26,7 @@
             [BehaviorName:Passive]
             [Triggers:AS2-B3-Trigger-Research]
             [Triggers:AS2-B3-Trigger-DNSK]
+            [Triggers:AS2-B3-Trigger-EDSR]
             [Triggers:AS2-B2-Trigger-AIEnabled]
         </Description>
     </EntityComponent>
@@ -39,6 +41,7 @@
             [BehaviorName:Passive]
             [Triggers:AS2-B3-Trigger-Processing]
             [Triggers:AS2-B3-Trigger-DNSK]
+            [Triggers:AS2-B3-Trigger-EDSR]
             [Triggers:AS2-B2-Trigger-AIEnabled]
         </Description>
     </EntityComponent>
@@ -53,6 +56,7 @@
             [BehaviorName:Passive]
             [Triggers:AS2-B3-Trigger-Camp]
             [Triggers:AS2-B3-Trigger-DNSK]
+            [Triggers:AS2-B3-Trigger-EDSR]
             [Triggers:AS2-B2-Trigger-AIEnabled]
         </Description>
     </EntityComponent>
@@ -67,6 +71,7 @@
             [BehaviorName:Passive]
             [Triggers:AS2-B3-Trigger-Town]
             [Triggers:AS2-B3-Trigger-DNSK]
+            [Triggers:AS2-B3-Trigger-EDSR]
             [Triggers:AS2-B2-Trigger-AIEnabled]
         </Description>
     </EntityComponent>

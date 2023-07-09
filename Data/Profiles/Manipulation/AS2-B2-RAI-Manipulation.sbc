@@ -43,6 +43,20 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
         <TypeId>Inventory</TypeId>
+        <SubtypeId>AS2-B2-RAI-Manipulation-EDSR</SubtypeId>
+      </Id>
+      <Description>
+        [MES Manipulation]
+        [ManipulationChance:100]
+        [UseLootProfiles:true]
+        [ClearExistingContainerTypes:true]
+        [LootProfiles:AS2-B2-Loot-EDSR]
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
         <SubtypeId>AS2-B2-RAI-Manipulation-Gatling</SubtypeId>
       </Id>
       <Description>

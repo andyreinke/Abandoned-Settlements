@@ -65,6 +65,22 @@
         <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
             <Id>
                 <TypeId>Inventory</TypeId>
+                <SubtypeId>AS2-B2-Trigger-EDSR</SubtypeId>
+            </Id>
+            <Description>
+                [RivalAI Trigger]
+                [UseTrigger:true]
+                [Conditions:AS2-Condition-EDSR]
+                [Type:Timer]
+                [StartsReady:true]
+                [MaxActions:1]
+                [Actions:AS2-B2-Action-EDSR]
+            </Description>
+        </EntityComponent>
+        
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
                 <SubtypeId>AS2-B2-Trigger-AIEnabled</SubtypeId>
             </Id>
             <Description>

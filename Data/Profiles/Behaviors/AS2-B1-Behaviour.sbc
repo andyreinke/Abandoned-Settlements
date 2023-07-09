@@ -12,6 +12,7 @@
             [BehaviorName:Passive]
             [Triggers:AS2-B1-Trigger-Claim]
             [Triggers:AS2-B1-Trigger-DNSK]
+            [Triggers:AS2-B1-Trigger-EDSR]
         </Description>
     </EntityComponent>
 
@@ -26,6 +27,7 @@
             [BehaviorName:Passive]
             [Triggers:AS2-B1-Trigger-Maintenance]
             [Triggers:AS2-B1-Trigger-DNSK]
+            [Triggers:AS2-B1-Trigger-EDSR]
         </Description>
     </EntityComponent>
 
@@ -40,6 +42,7 @@
             [BehaviorName:Passive]
             [Triggers:AS2-B1-Trigger-Security]
             [Triggers:AS2-B1-Trigger-DNSK]
+            [Triggers:AS2-B1-Trigger-EDSR]
         </Description>
     </EntityComponent>
 
@@ -54,6 +57,7 @@
             [BehaviorName:Passive]
             [Triggers:AS2-B1-Trigger-Surveyor]
             [Triggers:AS2-B1-Trigger-DNSK]
+            [Triggers:AS2-B1-Trigger-EDSR]
         </Description>
     </EntityComponent>
 </EntityComponents>

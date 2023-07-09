@@ -11,6 +11,7 @@
             [BehaviorName:Passive]
             [Triggers:AS2-B2-Trigger-Camp]
             [Triggers:AS2-B2-Trigger-DNSK]
+            [Triggers:AS2-B2-Trigger-EDSR]
             [Triggers:AS2-B2-Trigger-AIEnabled]
         </Description>
     </EntityComponent>
@@ -25,6 +26,7 @@
             [BehaviorName:Passive]
             [Triggers:AS2-B2-Trigger-Services]
             [Triggers:AS2-B2-Trigger-DNSK]
+            [Triggers:AS2-B2-Trigger-EDSR]
             [Triggers:AS2-B2-Trigger-AIEnabled]
         </Description>
     </EntityComponent>
@@ -39,6 +41,7 @@
             [BehaviorName:Passive]
             [Triggers:AS2-B2-Trigger-Processing]
             [Triggers:AS2-B2-Trigger-DNSK]
+            [Triggers:AS2-B2-Trigger-EDSR]
             [Triggers:AS2-B2-Trigger-AIEnabled]
         </Description>
     </EntityComponent>

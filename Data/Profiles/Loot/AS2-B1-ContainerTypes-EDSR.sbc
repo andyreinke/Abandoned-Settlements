@@ -1,0 +1,197 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<ContainerTypes>
+		<ContainerType CountMin="3" CountMax="5">
+			<Id>
+				<TypeId>ContainerTypeDefinition</TypeId>
+				<SubtypeId>AS2-B1-ContainerTypes-EDSR-Basic</SubtypeId>
+			</Id>
+			<Items>
+
+				<Item AmountMin="1" AmountMax="2">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>ConsumableItem</TypeId>
+						<SubtypeId>Emergency_Ration</SubtypeId>
+					</Id>
+				</Item>
+
+				<Item AmountMin="1" AmountMax="4">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>ConsumableItem</TypeId>
+						<SubtypeId>SparklingWater</SubtypeId>
+					</Id>
+				</Item>
+
+				<Item AmountMin="1" AmountMax="4">
+					<Frequency>0.5</Frequency>
+					<Id>
+						<TypeId>ConsumableItem</TypeId>
+						<SubtypeId>AppleJuice</SubtypeId>
+					</Id>
+				</Item>
+
+				<Item AmountMin="1" AmountMax="4">
+					<Frequency>0.5</Frequency>
+					<Id>
+						<TypeId>ConsumableItem</TypeId>
+						<SubtypeId>Apple</SubtypeId>
+					</Id>
+				</Item>
+
+                <Item AmountMin="2" AmountMax="5">
+                    <Frequency>0.3</Frequency>
+                    <Id>
+                        <TypeId>ConsumableItem</TypeId>
+                        <SubtypeId>LaysChips</SubtypeId>
+                    </Id>
+                </Item>
+                       
+                <Item AmountMin="2" AmountMax="5">
+                    <Frequency>0.3</Frequency>
+                    <Id>
+                        <TypeId>ConsumableItem</TypeId>
+                        <SubtypeId>PrlnglesChips</SubtypeId>
+                    </Id>
+                </Item>
+
+			</Items>
+		</ContainerType>
+		<ContainerType CountMin="3" CountMax="5">
+			<Id>
+				<TypeId>ContainerTypeDefinition</TypeId>
+				<SubtypeId>AS2-B1-ContainerTypes-EDSR-Food</SubtypeId>
+			</Id>
+			<Items>
+				<Item AmountMin="500" AmountMax="900">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Ore</TypeId>
+						<SubtypeId>Ice</SubtypeId>
+					</Id>
+				</Item>	
+
+                <Item AmountMin="1" AmountMax="5">
+                    <Frequency>0.3</Frequency>
+                    <Id>
+                        <TypeId>ConsumableItem</TypeId>
+                        <SubtypeId>LaysChips</SubtypeId>
+                    </Id>
+                </Item>
+                       
+                <Item AmountMin="1" AmountMax="5">
+                    <Frequency>0.3</Frequency>
+                    <Id>
+                        <TypeId>ConsumableItem</TypeId>
+                        <SubtypeId>PrlnglesChips</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="1" AmountMax="1">
+                    <Frequency>0.1</Frequency>
+                    <Id>
+                        <TypeId>ConsumableItem</TypeId>
+                        <SubtypeId>InterBeer</SubtypeId>
+                    </Id>
+                </Item>
+
+				<Item AmountMin="1" AmountMax="2">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>ConsumableItem</TypeId>
+						<SubtypeId>Emergency_Ration</SubtypeId>
+					</Id>
+				</Item>
+
+				<Item AmountMin="1" AmountMax="1">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>ConsumableItem</TypeId>
+						<SubtypeId>MushroomSoup</SubtypeId>
+					</Id>
+				</Item>
+
+                <Item AmountMin="2" AmountMax="4">
+                    <Frequency>0.5</Frequency>
+                    <Id>
+                        <TypeId>ConsumableItem</TypeId>
+                        <SubtypeId>Mushrooms</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="1" AmountMax="3">
+                    <Frequency>0.5</Frequency>
+                    <Id>
+                        <TypeId>ConsumableItem</TypeId>
+                        <SubtypeId>Apple</SubtypeId>
+                    </Id>
+                </Item>
+			</Items>
+		</ContainerType>
+		<ContainerType CountMin="4" CountMax="6">
+			<Id>
+				<TypeId>ContainerTypeDefinition</TypeId>
+				<SubtypeId>AS2-B1-ContainerTypes-EDSR-Plants</SubtypeId>
+			</Id>
+			<Items>
+				<Item AmountMin="500" AmountMax="900">
+					<Frequency>1.0</Frequency>
+					<Id>
+						<TypeId>Ore</TypeId>
+						<SubtypeId>Ice</SubtypeId>
+					</Id>
+				</Item>	
+
+				<Item AmountMin="10" AmountMax="20">
+					<Frequency>0.5</Frequency>
+					<Id>
+						<TypeId>Ingot</TypeId>
+						<SubtypeId>Organic</SubtypeId>
+					</Id>
+				</Item>
+
+                <Item AmountMin="1" AmountMax="3">
+                    <Frequency>0.5</Frequency>
+                    <Id>
+                        <TypeId>Ingot</TypeId>
+                        <SubtypeId>Wheat</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="1" AmountMax="3">
+                    <Frequency>0.5</Frequency>
+                    <Id>
+                        <TypeId>Ingot</TypeId>
+                        <SubtypeId>Soya</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="1" AmountMax="3">
+                    <Frequency>0.5</Frequency>
+                    <Id>
+                        <TypeId>Ingot</TypeId>
+                        <SubtypeId>Pumpkin</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="1" AmountMax="3">
+                    <Frequency>0.5</Frequency>
+                    <Id>
+                        <TypeId>Ingot</TypeId>
+                        <SubtypeId>Cabbage</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="1" AmountMax="3">
+                    <Frequency>0.5</Frequency>
+                    <Id>
+                        <TypeId>Ingot</TypeId>
+                        <SubtypeId>Herbs</SubtypeId>
+                    </Id>
+                </Item>
+
+			</Items>
+		</ContainerType>
+	</ContainerTypes>																									
+</Definitions>																										

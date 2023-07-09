@@ -153,5 +153,18 @@
             </Description>
         </EntityComponent>
 
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>AS2-B3-Action-EDSR</SubtypeId>
+            </Id>
+            <Description>
+                [RivalAI Action]
+                [SpawnEncounter:true]
+                [Spawner:AS2-B3-Spawn-Cargo-EDSR]
+                [Spawner:AS2-B3-Spawn-Cargo-EDSR]
+            </Description>
+        </EntityComponent>
+
     </EntityComponents>
 </Definitions>	        

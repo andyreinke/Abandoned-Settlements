@@ -39,5 +39,19 @@
         [LootProfiles:AS2-B0-Loot-DNSK]
       </Description>
     </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AS2-B0-RAI-Manipulation-EDSR</SubtypeId>
+      </Id>
+      <Description>
+        [MES Manipulation]
+        [ManipulationChance:100]
+        [UseLootProfiles:true]
+        [ClearExistingContainerTypes:true]
+        [LootProfiles:AS2-B0-Loot-EDSR]
+      </Description>
+    </EntityComponent>    
   </EntityComponents>
 </Definitions>
